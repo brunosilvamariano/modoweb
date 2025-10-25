@@ -1,7 +1,7 @@
 /**
  * ===== SCRIPT ESPECÍFICO PARA SEÇÃO ABOUT (SOBRE NÓS) =====
  * Funcionalidade: Reprodução de vídeo em modal ao clicar no botão play
- * Autor: Projeto Higienização
+ * Autor: Projeto Modo Web
  * Data: 2025
  */
 
