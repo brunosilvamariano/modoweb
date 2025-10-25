@@ -876,41 +876,57 @@
     <footer class="footer" role="contentinfo" aria-label="Rodapé principal do site">
         <div class="footer__container">
 
-            <!-- COLUNA SOBRE -->
+            <!-- COLUNA SOBRE E REDES SOCIAIS -->
             <section class="footer__col footer__col--about" aria-labelledby="footer-about-title">
                 <a href="#home" class="footer__logo" aria-label="Ir para a página inicial - Modo Web">
-                    <img src="./assets/img/logo/logo__bruno__modo-web1.svg" alt="Logo da Modo Web" loading="lazy" decoding="async" width="150" height="50">
+                    <img src="./assets/img/logo/logo__bruno__modo-web1.svg" alt="Logo da Modo Web" loading="lazy" decoding="async" width="180" height="50">
                 </a>
                 <h3 id="footer-about-title" class="visually-hidden">Sobre a empresa</h3>
                 <p class="footer__description">
                     A Modo Web desenvolve sites institucionais e landing pages personalizadas com design moderno, código otimizado e foco em resultados. Transformo sua presença digital em realidade.
                 </p>
+                
+                <!-- REDES SOCIAIS MODERNAS -->
+                <div class="footer__social" role="group" aria-label="Redes sociais do Bruno Mariano">
+                    <a href="https://www.instagram.com/modowebonline/" 
+                        class="footer__social-link" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bruno-mariano-75bab0192/" 
+                        class="footer__social-link" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://wa.me/5547991597258?text=Olá!%20Gostaria%20de%20criar%20um%20site%20para%20minha%20empresa!" 
+                        class="footer__social-link" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        aria-label="WhatsApp">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </div>
             </section>
 
-            <!-- COLUNA DE LINKS SOBRE NÓS -->
+            <!-- COLUNA DE LINKS RÁPIDOS -->
             <nav class="footer__col footer__col--links" aria-labelledby="footer-links-title">
-                <h3 class="footer__title" id="footer-links-title">Sobre Mim</h3>
+                <h3 class="footer__title" id="footer-links-title">Links Rápidos</h3>
                 <ul class="footer__list">
-                    <li><a href="#home" class="footer__link">Minha Empresa</a></li>
-                    <li><a href="#servicos" class="footer__link">Meus Serviços</a></li>
-                    <li><a href="#galeria" class="footer__link">Como Funciona</a></li>
-                    <li><a href="#galeria" class="footer__link">Minha Galeria</a></li>
-                </ul>
-            </nav>
-
-            <!-- COLUNA DE INFORMAÇÕES -->
-            <nav class="footer__col footer__col--info" aria-labelledby="footer-info-title">
-                <h3 class="footer__title" id="footer-info-title">Informações</h3>
-                <ul class="footer__list">
-                    <li><a href="#servicos" class="footer__link">Sites Institucionais</a></li>
-                    <li><a href="#" class="footer__link">Landing Pages</a></li>
-                    <li><a href="#como__funciona" class="footer__link">Briefing e Planejamento</a></li>
+                    <li><i class="bi bi-arrow-right-short" aria-hidden="true"></i><a href="#home" class="footer__link">Home</a></li>
+                    <li><i class="bi bi-arrow-right-short" aria-hidden="true"></i><a href="#servicos" class="footer__link">Serviços</a></li>
+                    <li><i class="bi bi-arrow-right-short" aria-hidden="true"></i><a href="#como__funciona" class="footer__link">Como Funciona</a></li>
+                    <li><i class="bi bi-arrow-right-short" aria-hidden="true"></i><a href="#galeria" class="footer__link">Galeria</a></li>
+                    <li><i class="bi bi-arrow-right-short" aria-hidden="true"></i><a href="#contato" class="footer__link">Contato</a></li>
                 </ul>
             </nav>
 
             <!-- COLUNA DE CONTATO -->
             <section class="footer__col footer__col--contact" aria-labelledby="footer-contact-title">
-                <h3 class="footer__title" id="footer-contact-title">Contato</h3>
+                <h3 class="footer__title" id="footer-contact-title">Fale Comigo</h3>
                 <address class="footer__address">
                     <ul class="footer__list">
                         <li>
@@ -919,17 +935,16 @@
                         </li>
                         <li>
                             <i class="bi bi-telephone-fill" aria-hidden="true"></i>
-                            <a href="tel:+5547991234567" class="footer__link" aria-label="Ligar para (47) 99123-4567">(47) 99159-7258</a>
+                            <a href="tel:+5547991597258" class="footer__link" aria-label="Ligar para (47) 99159-7258">(47) 99159-7258</a>
                         </li>
                         <li>
                             <i class="bi bi-envelope-fill" aria-hidden="true"></i>
-                            <a href="mailto:brunomariano.sv@gmail.com" class="footer__link" aria-label="Enviar email para brunomariano@gmail.com@gmail.com">brunomariano.sv@gmail.com</a>
+                            <a href="mailto:brunomariano.sv@gmail.com" class="footer__link" aria-label="Enviar email para brunomariano.sv@gmail.com">brunomariano.sv@gmail.com</a>
                         </li>
                          <li>
                             <i class="bi bi-envelope-fill" aria-hidden="true"></i>
                              <a href="mailto:modowebonline@gmail.com" class="footer__link" aria-label="Enviar email para modowebonline@gmail.com">modowebonline@gmail.com</a>
                         </li>
-                          
                     </ul>
                 </address>
             </section>
@@ -938,7 +953,7 @@
             <section class="footer__col footer__col--map" aria-labelledby="footer-map-title">
                 <h3 class="footer__title" id="footer-map-title">Onde Estou</h3>
                 <div class="footer__map-embed">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d70415.99619067302!2d-48.887573913245596!3d-26.304292970979432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x94dea3f39db1ab37%3A0xbc4b989df161e9fa!2sJoinville%2C%20Santa%20Catarina!3m2!1d-26.3043758!2d-48.846374399999995!4m5!1s0x94dea3f39db1ab37%3A0xbc4b989df161e9fa!2sJoinville%20-%20SC!3m2!1d-26.3043758!2d-48.846374399999995!5e1!3m2!1spt-BR!2sbr!4v1761168054742!5m2!1spt-BR!2sbr" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d70415.99619067302!2d-48.887573913245596!3d-26.304292970979432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x94dea3f39db1ab37%3A0xbc4b989df161e9fa!2sJoinville%2C%20Santa%20Catarina!3m2!1d-26.3043758!2d-48.846374399999995!4m5!1s0x94dea3f39db1ab37%3A0xbc4b989df161e9fa!2sJoinville%20-%20SC!3m2!1d-26.3043758!2d-48.846374399999995!5e1!3m2!1spt-BR!2sbr!4v1761168054742!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
         </div>
@@ -949,7 +964,7 @@
                 &copy; 2025 <strong>Bruno Mariano Silva | Modo Web</strong>. Todos os direitos reservados.
             </p>
             <p class="footer__credits">
-                Criado por 
+                Desenvolvido com <i class="bi bi-heart-fill" style="color: var(--footer-link-color);"></i> por 
                 <a href="#" class="footer__credit-link" aria-label="Ver portfólio de Bruno Mariano">Bruno Mariano</a> 
                 | 
                 <a href="#" class="footer__credit-link" aria-label="Acessar site Modo Web">Modo Web</a>
